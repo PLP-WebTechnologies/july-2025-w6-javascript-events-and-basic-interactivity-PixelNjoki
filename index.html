@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>JavaScript Interactivity Demo</h1>
+
+  <!-- Part 1: Event Handling -->
+  <p id="message">Hover over this text or click the button below!</p>
+  <button id="show-btn">Click Me</button>
+
+  <!-- Part 2: Interactive Elements -->
+  <h2>Light/Dark Mode</h2>
+  <button id="toggle-mode">Toggle Dark Mode</button>
+
+  <h2>Counter</h2>
+  <p id="counter-value">0</p>
+  <button id="increase-btn">Increase</button>
+  <button id="reset-btn">Reset</button>
+
+  <!-- Collapsible FAQ -->
+  <h2>FAQ</h2>
+  <button class="faq-btn">What is JavaScript?</button>
+  <div class="faq-answer">JavaScript makes web pages interactive.</div>
+
+  <button class="faq-btn">What is the DOM?</button>
+  <div class="faq-answer">The DOM is a way to access and change HTML with JS.</div>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Sign Up Form</h2>
+  <form id="signup-form">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="form-message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
